@@ -3,7 +3,7 @@
 --cinza-secundario: #c0c0c0;
 --botao-azul: #167bf7; 
 --cor-de-fundo: #00030C;
-
+--fonte-principal:'inter';
 }
 body {
     background-color: var(--cor-de-fundo);
@@ -21,7 +21,7 @@ pading:0;
 .container{
     height:100vh ;
     display: grid;
-    grid-template-columns: 33% 33%;
+    grid-template-columns: 50% 50%;
 }
 .container_botao{
   background-color: var(--botao-azul);  
@@ -29,5 +29,10 @@ pading:0;
   padding: 1em;
   color: var(--branco-principal);
   display: block;
+
+}
+.botao_secundario{
+background-color: transparent;
+border: 2px solid var(--branco-principal);
 }
 
