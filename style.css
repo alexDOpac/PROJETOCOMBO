@@ -13,20 +13,22 @@ font-family: var(--fonte-principal);
 font-size: 16px;
 font-weight: 400;
 }
+
 * {
 margin:0;
+
 pading:0;
 }
 .principal {
-    background-image: ur1("Backgroud.png);
-    backgroud-repeat: no-repeat;
-    backgroud-size: contain;
+    background-image: url("Backgroud.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 
-.container{
-    height:100vh ;
+.container {
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-}
+}nd
 .container_botao{
   background-color: var(--botao-azul);  
   border-radius: 5px;
